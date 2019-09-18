@@ -1,0 +1,36 @@
+{
+  "name": "prettify-benchmark",
+  "version": "1.0.0",
+  "description": "Beautiful benchmarks in the console",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "bin": "./cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeyciechanowicz/pretty-benchmarks.git"
+  },
+  "keywords": [
+    "benchmark",
+    "profile",
+    "pretty",
+    "pretty-print",
+    "statistical",
+    "benchmarking",
+    "easy"
+  ],
+  "author": "Joey Ciechanowciz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joeyciechanowicz/pretty-benchmarks/issues"
+  },
+  "homepage": "https://github.com/joeyciechanowicz/pretty-benchmarks#readme",
+  "dependencies": {
+    "ansi-escape": "^1.1.0",
+    "ansi-escapes": "^4.2.1",
+    "benchmark": "^2.1.4",
+    "chalk": "^2.4.2",
+    "table": "^5.4.6"
+  }
+}
